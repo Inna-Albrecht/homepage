@@ -1,0 +1,169 @@
+@import "normalize.css";
+/*---------------------------------------------------
+    LESS Elements 0.9
+  ---------------------------------------------------
+    A set of useful LESS mixins
+    More info at: http://lesselements.com
+  ---------------------------------------------------*/
+/* Black */
+/* Red */
+/* Green */
+/* Yellow */
+/* Blue */
+/* Magenta */
+/* Cyan */
+/* White */
+body {
+  position: relative;
+  background: rgba(0, 0, 0, 0.6) url('bg3.jpg');
+  background-size: cover;
+  overflow: hidden;
+  /* Ensure the background image path is correct */
+}
+a {
+  color: #DDDDDD;
+  text-decoration: none;
+  display: block;
+  float: none;
+}
+ul {
+  list-style: none;
+  padding: 6px 4px 8px 6px;
+  margin: 0;
+  width: 180px;
+  float: left;
+}
+input[type="text"],
+input[type="submit"] {
+  background-color: transparent;
+  /* Set to transparent */
+  color: #DDDDDD;
+  /* Retain the text color */
+  border: none;
+  /* Ensure there's no border */
+  font-family: monospace;
+  padding: 0;
+  outline: none;
+  /* Remove default outline */
+}
+input[type="submit"] {
+  display: none;
+  /* Hide the submit button */
+}
+#container {
+  background-color: rgba(0, 0, 0, 0.8);
+  /* Adjust the alpha value for transparency */
+  font-family: monospace;
+  font-size: 13px;
+  width: 585px;
+  height: 290px;
+  padding: 5px;
+  border: 6px solid rgba(0, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.6);
+}
+#search {
+  float: left;
+  margin: 0 0 0 6px;
+  padding: 0;
+}
+#links {
+  margin: 7px 0px 0px 2px;
+  font-size: 12px;
+  height: 172px;
+}
+.PS1 {
+  padding: 5px 0px 0px 5px;
+  display: block;
+  width: 585px;
+}
+.PS1:nth-of-type(1)::after {
+  content: " about -kato";
+  margin: 0 0 0 6px;
+  font-size: 13px;
+  color: #B8D68C;
+}
+.at::before {
+  content: "kato";
+  color: #B8D68C;
+}
+.at {
+  float: left;
+  color: #CCCCCC;
+}
+.at::after {
+  content: "kurwa";
+  color: #4E9FB1;
+}
+.amper::before {
+  content: ":";
+  color: #CCCCCC;
+}
+.amper {
+  float: left;
+  color: #9B64FB;
+}
+.amper::after {
+  content: " >>";
+  color: #E84F4F;
+}
+.main li {
+  color: #E84F4F;
+}
+.main li a:hover {
+  color: #D23D3D;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.utils li {
+  color: #B8D68C;
+}
+.utils li a:hover {
+  color: #A0CF5D;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.gfx li {
+  color: #E1AA5D;
+}
+.gfx li a:hover {
+  color: #F39D21;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.unix li {
+  color: #4D679A;
+}
+.unix li a:hover {
+  color: #4E9FB1;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.forums li {
+  color: #9B64FB;
+}
+.forums li a:hover {
+  color: #8542FF;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.bits li {
+  color: #6D878D;
+  font-size: 36px;
+}
+.bits li a:hover {
+  color: #42717B;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
